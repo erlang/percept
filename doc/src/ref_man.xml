@@ -12,7 +12,7 @@
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
- 
+
       http://www.apache.org/licenses/LICENSE-2.0
 
   Unless required by applicable law or agreed to in writing, software
@@ -33,8 +33,8 @@
   </header>
   <description>
     <p>
-      	<em>Percept</em> is an acronym for <em>P</em>ercept - <em>er</em>lang
-	<em>c</em>oncurr<em>e</em>ncy <em>p</em>rofiling <em>t</em>ool. 
+        <em>Percept</em> is an acronym for <em>P</em>ercept - <em>er</em>lang
+        <em>c</em>oncurr<em>e</em>ncy <em>p</em>rofiling <em>t</em>ool.
     </p>
     <p>
 	It is a tool to visualize application level concurrency and
@@ -43,6 +43,4 @@
   </description>
   <xi:include href="egd.xml"/>
   <xi:include href="percept.xml"/>
-  <xi:include href="percept_profile.xml"/>
 </application>
-
