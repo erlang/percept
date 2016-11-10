@@ -1,0 +1,7 @@
+_build/
+doc/src/egd.xml
+doc/src/egd_ug.xml
+doc/src/percept.xml
+doc/src/percept_ug.xml
+doc/specs/
+rebar3.crashdump
