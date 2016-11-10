@@ -20,7 +20,7 @@
 
 {application,percept, [
     {description, "PERCEPT Erlang Concurrency Profiling Tool"},
-    {vsn, "%VSN%"},
+    {vsn, git},
     {modules, [
 	egd,
 	egd_font,
