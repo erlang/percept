@@ -30,7 +30,7 @@
 	percept_image
     ]},
     {registered, [percept_db,percept_port]},
-    {applications, [kernel,stdlib]},
+    {applications, [kernel,stdlib,egd]},
     {env,[]},
     {runtime_dependencies, ["stdlib-2.0","runtime_tools-1.8.14","kernel-3.0",
 			    "inets-5.10","erts-9.0"]}
