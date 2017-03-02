@@ -33,10 +33,9 @@
          webserver/1]).
 
 suite() ->
-    [{ct_hooks,[ts_install_cth]},
-     {timetrap, {minutes, 2}}].
+    [{timetrap, {minutes, 2}}].
 
-all() -> 
+all() ->
     [app, appup, webserver, profile,
      analyze, analyze_dist].
 
@@ -57,7 +56,7 @@ appup(Config) when is_list(Config) ->
 webserver(Config) when is_list(Config) ->
     % Explicit start inets?
     {started, _, Port} = percept:start_webserver(),
-    ok = percept:stop_webserver(Port), 
+    ok = percept:stop_webserver(Port),
     {started, _, _} = percept:start_webserver(),
     ok = percept:stop_webserver(),
     {started, _, NewPort} = percept:start_webserver(),
